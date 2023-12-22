@@ -1,0 +1,16 @@
+#day,#night {
+
+  position: relative;
+  opacity: 0.5;
+  float:left;
+  padding:2px;
+  display:none;
+}
+
+.df {
+  height: 20%;
+  width:40%;
+}
+.clearfix {
+  overflow:auto;
+}
