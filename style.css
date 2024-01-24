@@ -18,7 +18,7 @@
 #pa {
  width:50%;
   color: red;
-  background-color:hsla(328,100%,44%,0.2); /* 0.2 alpha opacity*/
+  background-color:hsla(328,100%,44%,0.2); 
  display: none;
 }
 .clearfix {
