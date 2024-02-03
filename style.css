@@ -1,4 +1,4 @@
-#day,#night {
+/*#day,#night {
 
 
   position:relative;
@@ -7,8 +7,8 @@
   display:none;
 
 }
-
-#p {
+*/
+#par {
  width:50%;
   color:#8080ff;
   background-color:hsla(120,100%,50%,0.2); /* 0.2 alpha opacity*/
@@ -18,9 +18,43 @@
 #pa {
  width:50%;
   color: red;
-  background-color:hsla(328,100%,44%,0.2); 
+  background-color:hsla(328,100%,44%,0.2); /* 0.2 alpha opacity*/
  display: none;
 }
 .clearfix {
   overflow:auto;
+}
+
+#day {
+
+position:relative;
+ height:181px;
+ width: 198px;
+ font-size: 25px;
+ color: red;
+ text-align: center;
+ /*background-color: red;*/
+ float:left;
+ margin-right:10px;
+  background: radial-gradient( #25a5be 0%, #2587be 100%);
+  filter: drop-shadow(0 0 10px white);
+  display:none;
+
+}
+
+#night {
+
+position:relative;
+float:left;
+margin-right:10px;
+ height:181px;
+ width: 198px;
+ font-size: 25px;
+ color: red;
+ text-align: center;
+ /*background-color: red;*/
+  background: radial-gradient( #0a0025 0%, #000000 100%);
+  filter: drop-shadow(0 0 10px white);
+  display:none;
+
 }
