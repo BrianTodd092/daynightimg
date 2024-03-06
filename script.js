@@ -12,6 +12,6 @@ else {
 
    document.getElementById('night').style.display = "block";
    document.getElementById('pa').style.display = "block";
-  //document.body.style.backgroundColor = "hsla(120,100%,50%,0.3";
+  //document.body.style.backgroundColor = "hsla(211,100%,50%,0.3";
 
 }
